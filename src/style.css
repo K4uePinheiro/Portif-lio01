@@ -1,0 +1,108 @@
+@font-face {
+    font-family: inter-bold;
+    src: url(fonts/Inter/static/Inter_18pt-Bold.ttf);
+}
+@font-face {
+    font-family: italic;
+    src: url(fonts/Inter/static/Inter_18pt-LightItalic.ttf);
+}
+@font-face {
+    font-family: Extraligth;
+    src: url( /src/fonts/static/IBMPlexSans-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family: ligthitalic;
+    src: url(fonts/Inter/static/Inter_18pt-Light.ttf);
+}
+@font-face {
+    font-family: light;
+    src: url(fonts/Inter/static/Inter_28pt-Light.ttf);
+}
+
+*{
+    background-color: #002242 ;
+    margin: 0;
+
+}
+
+.header{
+    margin-top: 10px;
+    position: sticky;
+    top: 0px;
+    left: 0;
+    display: flex;
+    justify-content:initial ;
+    margin: 20px 2px;
+    gap: 40vw;
+
+}
+
+.logo{
+    padding: 5px  5px;
+    width: 6vw;
+    margin-left: 2vw;
+    font-size: 3rem;
+    font-family: 'inter-bold';
+    color: #9ECAE3 ;
+}
+.logo span{
+    color: white;
+}
+
+.navigator{
+    display: flex;
+    border: 2px solid #336FA5;
+    border-radius: 50rem;
+    margin-top: 10px;
+    padding: 30px 30px;
+    gap: 3rem;
+    width: 41rem;
+    background-color: #336FA5;
+    font-family:'inter-bold' ;  
+    
+}
+
+.navigator a{     
+    text-decoration: none;
+    padding: 0px 0px;
+    color: white;
+    background-color: #336FA5; 
+}
+.navigator:a.active{
+    text-decoration: underline;
+    text-decoration: white;
+    
+}
+
+.text_center {
+    margin-top: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ola{
+    font-family: 'italic';
+    font-size: 4rem;
+    color: white;
+}
+.me_chamo{
+    padding: 0px;
+}
+
+.me_chamo h3{
+    font-family: 'light';
+    font-size: 2rem;
+    color: white;
+}
+.me_chamo h4{
+    font-family: 'inter-bold';
+    font-size: 6rem;
+    background: transparent;
+    color: white;
+}
+.me_chamo h4 span{
+    font-size: 6rem;
+    background: transparent;
+    color: #1F92FF;
+}
