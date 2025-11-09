@@ -18,6 +18,10 @@
     font-family: light;
     src: url(fonts/Inter/static/Inter_28pt-Light.ttf);
 }
+@font-face {
+    font-family: semibold;
+    src: url(fonts/Inter/static/Inter_18pt-SemiBoldItalic.ttf);
+}
 
 *{
     background-color: #002242 ;
@@ -27,7 +31,6 @@
 
 .header{
     margin-top: 10px;
-    position: sticky;
     top: 0px;
     left: 0;
     display: flex;
@@ -38,6 +41,7 @@
 }
 
 .logo{
+    background-color: transparent;
     padding: 5px  5px;
     width: 6vw;
     margin-left: 2vw;
@@ -50,15 +54,18 @@
 }
 
 .navigator{
+    position: fixed;
     display: flex;
     border: 2px solid #336FA5;
     border-radius: 50rem;
     margin-top: 10px;
     padding: 30px 30px;
     gap: 3rem;
-    width: 41rem;
+    width: 42rem;
     background-color: #336FA5;
     font-family:'inter-bold' ;  
+    margin-left: 26rem;
+
     
 }
 
@@ -75,7 +82,7 @@
 }
 
 .text_center {
-    margin-top: 9rem;
+    margin-top: 13rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,4 +112,26 @@
     font-size: 6rem;
     background: transparent;
     color: #1F92FF;
+}
+
+.sobre_mim{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 12px 1px;
+    background-color: aliceblue;
+    font-family: 'semibold';
+    
+    
+
+}
+.sobre_mim a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #002242;
+    background-color: white;
 }
