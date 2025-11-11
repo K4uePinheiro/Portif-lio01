@@ -115,23 +115,24 @@
 }
 
 .sobre_mim{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-top: 9rem;
-    text-decoration: none;
-    border: 1px solid white;
-    border-radius: 30px;
-    padding: 12px 1px;
-    background-color: aliceblue;
     font-family: 'semibold';
-    
+    border: 5px solid white;
+    border-radius: 40px;
+    background-color: white;
+    width: 200px;
+    display: center;
+    align-items: center;
+    justify-content: center;
+
     
 
 }
 .sobre_mim a{
     text-decoration: none;
-    font-size: 20px;
-    color: #002242;
     background-color: white;
+    color: #002242;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
 }
